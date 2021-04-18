@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
    <title>Página de apresentção</title>
-  <h3>Rômulo</h3>
+  <h3>Rômulo Travassos Ferreira ♛</h3>
 </head>
 <body>
     <h1>Página Web</h1>
         <p>Hello Word! Welcome</p>
-            <h1>Manipulação de texto</h1>
+            <h1>Manipulação de texto</h1><!--Tipos de manipulação de textos-->
                 <span>Agora a utilização de um <em>container</em> para textos utilizando a tag SPAN.
                 É possivel usar a tag de <i>Itálico</i> ou ainda <em>itálico</em> sendo o primeiro responsavel por destaque 
                 e o segundo por ênfase. Ainda é possivel aplicar ênfase a textos de <strong>grande importância no texto</strong>.
                 </span>
-                    <h1>Curso</h1>
+                    <h1>Curso</h1><!--Inserindo e dimensionando imagem-->
                     <img src="imagem/star wars revenge.jpg" width="50%" height="50%">
-                    <h3>Listas Ordenadas</h3>
+                    <h3>Listas Ordenadas</h3><!--Inserir listas ordenadas e não ordenadas-->
                     <p>
                         Ainda é possível trabalhar com listas ordenadas e não ordenadas. As <i><u>Ordered Lists</u></i> são listas ordenadas e <i><u>Unordered Lists</u></i> são listas não ordenadas.
                         <ol>
@@ -26,7 +26,60 @@
                             <li>Item 1</li>
                             <li>Item 2</li>
                         </ul>
+                    </p><!--Inserindo link e target para abrir link em outra guia-->
+                        <p>Ola veja as principais noticias de tecnologia em <a href="https://www.canaltech.com.br/" target="_blank"> CanalTech</a></p>
+    <h3>Audios</h3><!--Audio local-->
+        <p>
+        A utilização com reprodução de áudio também é bastante útil. A tag de áudio pode ser assim definida:
+        </p>
+            <audio src="musica/01. Around The World.mp3" controls></audio>
+                <h3>Videos</h3><!--Video local-->
+                    <p>
+                        Utilização com reprodução de video também é útil.
                     </p>
-            
+                        <video src="video/scania.mp4" controls width="50%" height="50%"></video>
+                            <h3>Iframe</h3><!--Inserindo video da internet principalmente youtube-->
+                                <p>
+                                    Este elemento é muito utilizado para incorporar uma página web em outra. Muito utilizada por plataformas como youtube. Veja o exemplo.
+                                </p>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qm4NRSa9T2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Tabela de preços</h3><!--Tabelas-->
+                        <table>
+                            <tr>
+                                <th>Ord</th>
+                                <th>Produto</th>
+                                <th>Valor</th>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <th>Chocolate</th>
+                                <th>R$ 5,50</th>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <th>Bolacha</th>
+                                <th>R$ 2,50</th>
+                            </tr>
+                        </table>
+    <h3>Formulário</h3>
+        <form method= 'post' action=''><!--Inicial de formularios-->
+            <p>
+                <label for='email'>E-mail:</label>
+                <input type='email' id='email' name='email'>
+                <span>Por exemplo, seunome@dominio.com</span>
+            </p>
+                <p>
+                    <label for='subject'>Assunto</label>
+                    <input type='text' id='subject'>
+                </p>
+                    <p>
+                        <label for='content'>Mensagem</label>
+                        <textarea id='content' cols="30" rows="10"></textarea>
+                    </p>
+                            <button>Enviar</button>
+
+        </form>
+
+
 </body>
 </html>
