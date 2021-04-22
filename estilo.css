@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*Barra de menu vertical e horizontal*/
+
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: 10px;
+        left: 600px;
+    }
+
+    nav#menu li{
+        display: inline-block;
+        background-color: rgba(150, 40, 0, .4);
+        padding: 10px;
+    }
+    nav#menu li:hover {/*Se o HOVER não estiver junto dos :(dois pontos) a parada não funfa*/
+        background-color: #70d41e;
+    }
+
+/*Bordas*/
+
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase;
+        border-radius: 10px;
+        border: 3px solid rgba(0,0,0, 0.3);
+        border-color: darkolivegreen; /*bordas*/
+    }
+    nav#menu li{ /*continuação sobre bordas*/
+        display: inline-block;
+        font-size: 12px;
+        background-color: darkorange;
+    }
+
+   table{ /*Formatação de tabela*/
+     border-collapse: collapse;
+   }
+   th{
+     border: 1px solid #ccc;
+     padding: 9px;
+     background-color: silver;
+   }
+   td{
+     border: 1px solid #ccc;
+     padding: 10px;
+     text-align: center;
+     border-left:
+   }
